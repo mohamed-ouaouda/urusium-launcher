@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+div.title h1 {
+    text-align: center;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+div.pseudo {
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+div.launched {
+    font-family: 'Pixelify Sans', sans-serif;
+    margin-top: 8%;
+    text-align: center;
+}
+
+button.play {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: medium;
+}

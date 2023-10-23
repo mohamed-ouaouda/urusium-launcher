@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "minecraft-launcher-core": "^3.17.2",
+    "msmc": "^4.1.0",
+    "raw": "^0.1.4"
+  },
+  "name": "urusium-launcher",
+  "version": "0.0.2",
+  "description": "Un launcher pour un petit serveur.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "icon": "./src/icons/icon.ico",
+    "appId": "tech.endour.urusium",
+    "productName": "Urusium Launcher ( Endour_Off )",
+    "nsis": {
+      "artifactName": "Urusium Launcher ( Endour_Off ) Setup ${version}.${ext}",
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "./src/icons/install.ico",
+      "uninstallerIcon": "./src/icons/uninstall.ico",
+      "deleteAppDataOnUninstall": true
+    }
+  },
+  "author": "Mohamed Ouaouda",
+  "license": "ISC"
+}
