@@ -1,7 +1,8 @@
 {
   "dependencies": {
-    "minecraft-launcher-core": "^3.17.2",
+    "minecraft-launcher-core": "^3.18.1",
     "msmc": "^4.1.0",
+    "open": "^10.1.0",
     "raw": "^0.1.4"
   },
   "name": "urusium-launcher",
@@ -14,10 +15,10 @@
   },
   "build": {
     "icon": "./src/icons/icon.ico",
-    "appId": "tech.endour.urusium",
-    "productName": "Urusium Launcher ( Endour_Off )",
+    "appId": "fr.erisium-pvp.launcher",
+    "productName": "Erisium Launcher",
     "nsis": {
-      "artifactName": "Urusium Launcher ( Endour_Off ) Setup ${version}.${ext}",
+      "artifactName": "Erisium Launcher Setup ${version}.${ext}",
       "oneClick": false,
       "perMachine": false,
       "allowToChangeInstallationDirectory": true,
@@ -26,6 +27,10 @@
       "deleteAppDataOnUninstall": true
     }
   },
-  "author": "Mohamed Ouaouda",
-  "license": "ISC"
+  "author": "Erisium Studio",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8"
+  }
 }

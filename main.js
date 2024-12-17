@@ -33,7 +33,7 @@ app.whenReady().then(() => {
   })
 })
 
-// launch();
+launch();
 
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') {

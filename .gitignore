@@ -1,2 +1,7 @@
 node_modules
 dist
+.urusium
+.minecraft
+java21
+jdk-21-installer.exe
+jdk-23_windows-x64_bin.msi
